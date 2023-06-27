@@ -4,7 +4,7 @@ provider:
   environment:  
     userDetails: ${self:custom.userDetails}
 functions:
-  hello:
+  tests3:
     handler: handler.main
     events:
       - httpApi:
