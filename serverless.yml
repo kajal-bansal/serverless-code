@@ -1,0 +1,12 @@
+provider:
+  name: aws
+  runtime: nodejs14.x
+  environment:  
+    userDetails: ${self:custom.userDetails}
+functions:
+  hello:
+    handler: handler.main
+    events:
+      - httpApi:
+          path: /
+          method: get
