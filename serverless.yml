@@ -1,9 +1,9 @@
 provider:
   name: aws
   runtime: nodejs14.x
-  service: AWS Lambda
+  service: aws lambda
 functions:
-  s2-lambda-api:
+  s3-lambda-api:
     handler: handler.main
     events:
       - httpApi:
