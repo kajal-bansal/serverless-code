@@ -4,7 +4,7 @@ provider:
   name: aws
   runtime: nodejs14.x
   stage: dev
-  region: ap-south-2
+  region: ap-south-1
 functions:
   s3-lambda-api:
     handler: handler.main
