@@ -3,7 +3,7 @@ service: aws-lambda
 provider:
   name: aws
   runtime: nodejs14.x
-  service: aws lambda
+  stage: dev
 functions:
   s3-lambda-api:
     handler: handler.main
