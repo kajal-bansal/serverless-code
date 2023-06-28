@@ -4,7 +4,7 @@ provider:
   environment:  
     userDetails: ${self:custom.userDetails}
 functions:
-  tests3:
+  s2-lambda-api:
     handler: handler.main
     events:
       - httpApi:
