@@ -1,8 +1,6 @@
 provider:
   name: aws
   runtime: nodejs14.x
-  environment:  
-    userDetails: ${self:custom.userDetails}
 functions:
   s2-lambda-api:
     handler: handler.main
